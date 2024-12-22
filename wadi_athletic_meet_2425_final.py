@@ -53,16 +53,19 @@ elif grade == 5 or grade == 6 or grade == 7 or grade == 8 or grade == 9 or grade
 if grade == 1 or grade == 2 :
     st.write("###### 100m Time: *ss.ms*")
     st.write("###### 200m Time: *ss.ms OR m.ss.ms*")
+    st.write("###### If any of your event time is displayed as 'None,' it indicates that your performance time was not recorded due to certain reasons.")
 elif grade == 3 or grade == 4:
     st.write("###### 100m Time: *ss.ms*")
     st.write("###### 200m Time: *ss.ms OR m.ss.ms*")    
     st.write("###### 400m Time: *m.ss.ms*")
+    st.write("###### If any of your event time is displayed as 'None,' it indicates that your performance time was not recorded due to certain reasons.")
 elif grade == 5 or grade == 6 or grade == 7 or grade == 8 or grade == 9 or grade == 10 or grade == 11 or grade == 12:
     st.write("###### 100m Time: *ss.ms*")
     st.write("###### 200m Time: *ss.ms OR m.ss.ms*")
     st.write("###### 400m Time: *m.ss.ms*")
     st.write("###### Shot Put: *mt*")
     st.write("###### Long Jump: *mt*")
+    st.write("###### If any of your event time is displayed as 'None,' it indicates that your performance time was not recorded due to certain reasons.")
 
 
 "---"
