@@ -47,7 +47,7 @@ if grade == 1 or grade == 2 :
 elif grade == 3 or grade == 4:
     st.dataframe(selected_student_data, column_config={"School": None, "400m(s)": None, "200m(s)": None, "Long Jump": None, "Shot Put":None}, hide_index=True)
 elif grade == 5 or grade == 6 or grade == 7 or grade == 8 or grade == 9 or grade == 10 or grade == 11 or grade == 12:
-    st.dataframe(selected_student_data, column_config={"School": None, "400m": None}, hide_index=True)
+    st.dataframe(selected_student_data, column_config={"School": None, "200m(s)": None, "400m(s)": None}, hide_index=True)
 
 
 if grade == 1 or grade == 2 :
